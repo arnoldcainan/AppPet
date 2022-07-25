@@ -4,35 +4,55 @@
         
 }
 body{
-    background-color: #c3c3c3;
+    background-color: #F0F0F0;
 
 
 }
 header {
     width:100%;
-    height: 3.5rem;
-    border-radius: 5px;
+    height: 93px;
     padding: 5px;
-    background-color: aquamarine;
+    background-color: #74BAA0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 header img {
+    height: 60px;
+    width: 70px;
+}
+
+header img {
     margin: 40px;
 }
 
  section{
-    background-color: #c3c3c3;
+    background-color: #F0F0F0;
+    margin:  0 auto;
+    padding: 20px;
     text-align: center;
+    width: 380px;
+    height: 510px;
 
+ }
+ section h1{
+    margin: 15px;
+ }
+
+ section p {
+    margin: 15px;
+ }
+ section input{
+    margin: 10px;
+    height: 50px;
+    width: 300px;
  }
 
  footer{
     width: 100%;
     height:max-content;    
     padding: 5px;
-    background-color: aquamarine;
+    background-color: #3E9278;
     display:flexbox;
     justify-content:center;
     align-items: center;
