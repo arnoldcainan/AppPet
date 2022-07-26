@@ -20,6 +20,7 @@ header {
 header img {
     height: 60px;
     width: 70px;
+    cursor: pointer;
 }
 
 header img {
@@ -34,7 +35,7 @@ header img {
     width: 50%;
     text-align: center;
     background-color: #74BAA0;
-    border: 2px solid  #F0F0F0;
+    border: 2px solid  #F0F0F0;    
 }
 .cadastrar{
     width: 50%;
@@ -63,6 +64,11 @@ header img {
     margin: 10px;
     height: 50px;
     width: 300px;
+    border-color: #3E9278;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;    
+    
  }
  section button{
     margin: 50px;
@@ -73,6 +79,8 @@ header img {
     border-radius: 8px;
     color: #F0F0F0;
     font-size: large;
+    box-shadow: 7px 3px 3px rgba(0, 0, 0, 0.589);
+    cursor: pointer;
      
 
  }
@@ -82,6 +90,7 @@ header img {
     height:max-content;    
     padding: 5px;
     background-color: #3E9278;
+    color: #F0F0F0;
     display:flexbox;
     justify-content:center;
     align-items: center;
@@ -93,6 +102,7 @@ header img {
     height: 45px;
     width: 40x;
     margin: 10px;
+    
     display: flexbox;
     justify-items: center;
     align-items: center;
